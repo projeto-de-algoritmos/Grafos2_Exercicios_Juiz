@@ -33,12 +33,12 @@ def add_path(graph, node1, node2, weight):
 
 graph = {}
 
-n_points, n_paths, n_tourist = map(int, input().split())
+n_cities, n_agreements = map(int, input().split())
 
-for x in range(1, n_points + 1):
+for x in range(1, n_cities + 1):
     add_node(graph, x)
 
-for i in range(n_paths):
+for i in range(n_agreements):
     node1, node2, n_weight = input().split()
     add_path(graph, int(node1), int(node2), int(n_weight))
 
@@ -59,4 +59,3 @@ distances, predecessors = dijkstra(graph, first_node)
 total_cost += distances[1]
 
 print(total_cost)
-
