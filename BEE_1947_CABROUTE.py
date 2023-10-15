@@ -22,35 +22,45 @@ def dijkstra(graph, start):
     
     return distances, predecessors
 
-def add_node(graph,node):
+def add_node(graph, node):
     if node not in graph:
-        graph[node]={}
+        graph[node] = {}
 
-def add_path(graph,node1,node2,weight):
+def add_path(graph, node1, node2, weight):
     if node1 in graph and node2 in graph:
         graph[node1][node2] = weight
         graph[node2][node1] = weight
 
 graph = {}
 
-n_points,n_paths,n_tourist = input().split()
+n_points, n_paths, n_tourist = map(int, input().split())
 
-for x in range(1,n_points+1):
-    add_node(graph,x)
+for x in range(1, n_points + 1):
+    add_node(graph, x)
 
 for i in range(n_paths):
-    node1,node2,n_weight = input().split
-    add_path(graph,node1,node2,n_weight)
+    node1, node2, n_weight = input().split()
+    add_path(graph, int(node1), int(node2), int(n_weight))
 
-
-
+total_cost = 0
 first_node = 1
+
+for j in range(n_tourist):
+    start_t, end_t = map(int, input().split())
+    distances, predecessors = dijkstra(graph, first_node)
+    total_cost += distances[start_t]
+    print(f"total cost: {total_cost}")
+    first_node = start_t
+    print(f"first node: {first_node}")
+    distances, predecessors = dijkstra(graph, first_node)
+    total_cost += distances[end_t]
+    print(f"total cost: {total_cost}")
+    first_node = end_t
+    print(f"first node: {first_node}")
+
+
 distances, predecessors = dijkstra(graph, first_node)
+total_cost += distances[1]
 
-print("Shortest Distances:")
-for node, distance in distances.items():
-    print(f"From {first_node} to {node}: {distance}")
+print(total_cost)
 
-print("\nPredecessors:")
-for node, predecessor in predecessors.items():
-    print(f"Predecessor of {node}: {predecessor}")
