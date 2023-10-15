@@ -1,4 +1,4 @@
-import heapq
+import heapq, math
 
 def dijkstra(graph, start):
     distances = {node: float('infinity') for node in graph}
@@ -29,7 +29,6 @@ def add_node(graph, node):
 def add_path(graph, node1, node2, weight):
     if node1 in graph and node2 in graph:
         graph[node1][node2] = weight
-        graph[node2][node1] = weight
 
 graph = {}
 
@@ -39,23 +38,20 @@ for x in range(1, n_cities + 1):
     add_node(graph, x)
 
 for i in range(n_agreements):
-    node1, node2, n_weight = input().split()
-    add_path(graph, int(node1), int(node2), int(n_weight))
+    node1, node2, n_weight = map(int, input().split())
+    add_path(graph, node1, node2, n_weight)
+    if node2 in graph[node1] and node1 in graph[node2]:
+        graph[node1][node2]=0
+        graph[node2][node1]=0
 
-total_cost = 0
-first_node = 1
+n_cases = int(input())
 
-for j in range(n_tourist):
-    start_t, end_t = map(int, input().split())
-    distances, predecessors = dijkstra(graph, first_node)
-    total_cost += distances[start_t]
-    first_node = start_t
-    distances, predecessors = dijkstra(graph, first_node)
-    total_cost += distances[end_t]
-    first_node = end_t
+for j in range(n_cases):
+    node_s, node_e = map(int, input().split())
+    distances, predecessors = dijkstra(graph, node_s)
+    if math.isinf(distances[node_e]):
+        print("Nao e possivel entregar a carta")
+    else:
+        print(distances[node_e])
+    print()
 
-
-distances, predecessors = dijkstra(graph, first_node)
-total_cost += distances[1]
-
-print(total_cost)
