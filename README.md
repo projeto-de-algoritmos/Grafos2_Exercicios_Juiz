@@ -1,18 +1,4 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
+# Grafos 2 exercicios juiz
 
 **Número da Lista**: 2<br>
 **Conteúdo da Disciplina**: Grafos2<br>
@@ -23,16 +9,14 @@ Temas:
 | 21/1006957  | Sebastián Héctor Zuzunaga Rosado |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
-
+Este repositório apresenta exercícios de beecrowd resolvidos.
+Total: 2 de dificuldade média
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: Python(temp)<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-
+**Linguagem**: C++<br>
+Para verificar os requisitos no juiz online nada é necessário, se você quiser executar o código é aconselhável usar um compilador online.
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
