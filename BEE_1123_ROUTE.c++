@@ -84,3 +84,31 @@ void p_back(graph *g,int no,int v,int value){
     newnode->next = g->adj[v].next;
     g->adj[v].next = newnode;
 }
+
+int main(int argc, char **argv){
+    int i;
+    int n, m, c, k, a, b, w;
+
+    while(scanf("%d %d %d %d", &n, &m, &c, &k),(c && n && m && k)){
+        graph *graph = create_graph(n + 1);
+        for(i = 0;i<m;++i){
+            scanf("%d %d %d", &a, &b, &w);
+
+            if(a >= c && b >= c || ((a < c) && (b < c) && (abs(a-b)==1))){
+                p_back(graph, a, b, w),p_back(graph, b, a, w);
+            }
+
+            if(a >= c && b < c){
+                p_back(graph, b, a, w);
+            }
+
+            if(b >= c && a < c){
+                p_back(graph, a, b, w);
+            }
+        }
+
+        dijkstra(graph, k, n);
+        printf("%d\n",distance[c - 1]);
+    }
+    return 0;
+}
