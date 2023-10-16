@@ -23,7 +23,7 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
 **Linguagem**: C++<br>
-Para verificar os requisitos no juiz online nada é necessário, se você quiser executar o código é aconselhável usar um compilador online.
+Para verificar os codigos no juiz online nada é necessário, se você quiser executar o código é aconselhável usar um compilador online.
 ## Uso 
 Para verificar no juiz online, crie uma conta de bee crowd, procure o problema a verificar, selecione como linguagem a usar c++, cole o código e envie.
 Para executar o programa, procure um compilador de c++ online, cole o código e execute.
