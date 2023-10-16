@@ -13,6 +13,9 @@ Este repositório apresenta exercícios de beecrowd resolvidos relacionados aos 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
+### BEE 1148 COUNTRIES AT WAR (level 5/10)
+
+### BEE 1123 ROUTE CHANGE (level 4/10)
 
 ## Instalação 
 **Linguagem**: C++<br>
