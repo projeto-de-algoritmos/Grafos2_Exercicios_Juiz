@@ -1,4 +1,4 @@
-# Grafos 2 exercicios juiz
+# Grafos2_ExerciciosJuiz
 
 **Número da Lista**: 2<br>
 **Conteúdo da Disciplina**: Grafos2<br>
