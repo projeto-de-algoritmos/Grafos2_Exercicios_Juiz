@@ -9,8 +9,8 @@
 | 21/1006957  | Sebastián Héctor Zuzunaga Rosado |
 
 ## Sobre 
-Este repositório apresenta exercícios de beecrowd resolvidos.
-Total: 2 de dificuldade média
+Este repositório apresenta exercícios de beecrowd resolvidos relacionados aos temas de grafos 2.
+
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
@@ -18,8 +18,8 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 **Linguagem**: C++<br>
 Para verificar os requisitos no juiz online nada é necessário, se você quiser executar o código é aconselhável usar um compilador online.
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
+Para verificar no juiz online, crie uma conta de bee crowd, procure o problema a verificar, selecione como linguagem a usar c++, cole o código e envie.
+Para executar o programa, procure um compilador de c++ online, cole o código e execute.
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
