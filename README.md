@@ -14,8 +14,12 @@ Este repositório apresenta exercícios de beecrowd resolvidos relacionados aos 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 ### BEE 1148 COUNTRIES AT WAR (level 5/10)
+![WAR](https://github.com/sebazac332/Grafos2_ExerciciosJuiz/assets/98188828/fefba7c3-3354-4c13-b2c1-bc467a0d1840)
+
 
 ### BEE 1123 ROUTE CHANGE (level 4/10)
+![route change](https://github.com/sebazac332/Grafos2_ExerciciosJuiz/assets/98188828/35200251-8b77-4a14-9b22-35f9010efab1)
+
 
 ## Instalação 
 **Linguagem**: C++<br>
