@@ -12,7 +12,7 @@
 Este repositório apresenta exercícios de beecrowd resolvidos relacionados aos temas de grafos 2.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
 ### BEE 1148 COUNTRIES AT WAR (level 5/10)
 ![WAR](https://github.com/sebazac332/Grafos2_ExerciciosJuiz/assets/98188828/fefba7c3-3354-4c13-b2c1-bc467a0d1840)
 
@@ -27,9 +27,6 @@ Para verificar os codigos no juiz online nada é necessário, se você quiser ex
 ## Uso 
 Para verificar no juiz online, crie uma conta de bee crowd, procure o problema a verificar, selecione como linguagem a usar c++, cole o código e envie.
 Para executar o programa, procure um compilador de c++ online, cole o código e execute.
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
-
 
 
 
