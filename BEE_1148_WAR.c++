@@ -1,7 +1,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <iostream>
-#define Vertices int
 
 struct Grafo {
        int v;
