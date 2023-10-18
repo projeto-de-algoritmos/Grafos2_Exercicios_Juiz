@@ -52,7 +52,7 @@ int main()
 	memset(&grafo, 0, sizeof(grafo));
 	int n,e,k,o,d;
 	int x,y,z;
-    int i, j;
+      int i, j;
     
     while(1){
              scanf("%d %d", &n, &e);
