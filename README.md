@@ -15,10 +15,14 @@ Este repositório apresenta exercícios de beecrowd resolvidos relacionados aos 
 
 ### BEE 1148 COUNTRIES AT WAR (level 5/10)
 ![WAR](https://github.com/sebazac332/Grafos2_ExerciciosJuiz/assets/98188828/fefba7c3-3354-4c13-b2c1-bc467a0d1840)
+![war1](https://github.com/projeto-de-algoritmos/Grafos2_Exercicios_Juiz/assets/98188828/d21e66bb-da83-4291-8e02-052bda3fd62b)
+
 
 
 ### BEE 1123 ROUTE CHANGE (level 4/10)
 ![route change](https://github.com/sebazac332/Grafos2_ExerciciosJuiz/assets/98188828/35200251-8b77-4a14-9b22-35f9010efab1)
+![route1](https://github.com/projeto-de-algoritmos/Grafos2_Exercicios_Juiz/assets/98188828/51f351de-27b2-4694-8ff8-c9353edafc9c)
+
 
 
 ## Instalação 
